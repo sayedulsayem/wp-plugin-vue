@@ -1,0 +1,77 @@
+# Copyright (C) 2023 Sayedul Sayem
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Plugin Vue 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-plugin-vue\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-07T19:25:56+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: wp-plugin-vue\n"
+
+#. Plugin Name of the plugin
+#: includes/Dashboard/AdminMenu.php:26
+#: includes/Dashboard/AdminMenu.php:27
+msgid "WP Plugin Vue"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/sayedulsayem/wp-plugin-vue/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A WordPress Vue.js starter plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sayedul Sayem"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sayedulsayem.com/"
+msgstr ""
+
+#: includes/Dashboard/AdminMenu.php:36
+msgid "App"
+msgstr ""
+
+#: includes/Dashboard/AdminMenu.php:37
+msgid "Settings"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "WP Plugin Vue Dashboard"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Welcome to Your Vue.js Admin App"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The Settings Page"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Frontend Vue App"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Home"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Profile"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Welcome to Your Vue.js Frontend App"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "The Profile Page"
+msgstr ""

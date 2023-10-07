@@ -1,0 +1,57 @@
+{
+  "name": "wp-plugin-vue",
+  "version": "0.0.1",
+  "description": "WordPress plugin with Vuejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --progress --mode development",
+    "dev-build": "webpack --mode development",
+    "build": "webpack --mode production",
+    "wp-cli-pot": "wp i18n make-pot . i18n/wp-plugin-vue.pot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayedulsayem/wp-plugin-vue"
+  },
+  "keywords": [
+    "wordpress-plugin"
+  ],
+  "author": "Sayedul Sayem <sayedulsayem@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "npm": ">=9.8.1",
+    "node": ">=19.4.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> .5%"
+  ],
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^17.2.2",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
