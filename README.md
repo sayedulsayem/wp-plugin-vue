@@ -48,7 +48,7 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 
 ## About
 
-Made by [Sayedul Sayem](https://github.com/sayedulsayem).
+Made by [Sayedul Sayem](https://sayedulsayem.com).
 
 *Found anything that can be improved? You are welcome to contribute.*
 
