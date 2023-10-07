@@ -6,7 +6,9 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const config = require('./config.json');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 // Naming and path settings
 var entryPoint = {
@@ -77,18 +79,17 @@ module.exports = (env, args) => {
                 filename: '../css/[name].css',
                 ignoreOrder: false,
             }),
-            // make a config.json file from config.json.example and input your app settings url. then uncommit below code to auto reload every change of your plugin.
 
-            new BrowserSyncPlugin({
-                proxy: {
-                    target: config.proxyURL
-                },
-                files: [
-                    '**/*.php'
-                ],
-                cors: true,
-                reloadDelay: 0
-            }),
+            // make a config.json file from config.json.example and input your app settings url. then uncommit below code to auto reload every change of your plugin.
+            // new BrowserSyncPlugin({
+            //     proxy: process.env.BROWSERSYNC_PROXY,
+            //     port: parseInt(process.env.BROWSERSYNC_PORT),
+            //     files: [
+            //         '**/*.php'
+            //     ],
+            //     cors: true,
+            //     reloadDelay: 0
+            // }),
             new VueLoaderPlugin(),
             ...(devMode ? [] : [ new CssMinimizerPlugin() ]),
             ...(devMode ? [] : [ new webpack.DefinePlugin({
