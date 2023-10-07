@@ -39,7 +39,7 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 7. For production build, run `npm run build` 👍
 
 ## ⛑ Some Instructions/ Features
-- For activating auto reloading with the browser with **Browsersync** you have to create a `config.json` from the `config.json.example` file and replace `proxyURL` with your app settings page URL
+- For activating auto reloading with the browser with **Browsersync** you have to create a `.env` from the `.env.example` file and replace `BROWSERSYNC_PROXY` with your app settings page URL and `BROWSERSYNC_PORT` with your desired port.
 - It supports JavaScript string translation. Many people struggle to make translatable vue component strings. It supports that but you have to generate `.pot` file by `WP-CLI`. Just install [WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/) and run `npm run wp-cli-pot`
 
 ## 🎁 Preview

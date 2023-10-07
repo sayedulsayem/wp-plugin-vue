@@ -44,9 +44,6 @@ class RegisterAssets
             $version   = isset($script['version']) ? $script['version'] : WPPV_VERSION;
 
             wp_register_script($handle, $script['src'], $deps, $version, $in_footer);
-
-            wp_set_script_translations('wp-plugin-vue-admin', 'wp-plugin-vue', WPPV_PATH . 'i18n/');
-            wp_set_script_translations('wp-plugin-vue-frontend', 'wp-plugin-vue', WPPV_PATH . 'i18n/');
         }
     }
 
