@@ -2,6 +2,12 @@
 
 A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 😎
 
+## Build & Required Tech Stack
+- Vuejs 3
+- Webpack 5
+- PHP 7.4 or greater
+- WordPress 5.0 or greater
+
 ## 📦 What it ships with?
 
  - Pre-configured Webpack config
@@ -34,7 +40,7 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 
 ## ⛑ Some Instructions/ Features
 - For activating auto reloading with the browser with **Browsersync** you have to create a `config.json` from the `config.json.example` file and replace `proxyURL` with your app settings page URL
-- It supports JavaScript string translation. Many people struggle to make translatable vue component strings. It supports that but you have to generate `.pot` file `WP-CLI`. Just install [WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/) and run `npm run wp-cli-pot`
+- It supports JavaScript string translation. Many people struggle to make translatable vue component strings. It supports that but you have to generate `.pot` file by `WP-CLI`. Just install [WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/) and run `npm run wp-cli-pot`
 
 ## 🎁 Preview
 
@@ -45,3 +51,5 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 Made by [Sayedul Sayem](https://github.com/sayedulsayem).
 
 *Found anything that can be improved? You are welcome to contribute.*
+
+*Inspired from [Vue WP Starter](https://github.com/tareq1988/vue-wp-starter) by [Tareq Hasan](https://github.com/tareq1988)*
